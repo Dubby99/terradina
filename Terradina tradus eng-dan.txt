@@ -1,3 +1,7 @@
+ git add .
+ git commit -m "SCRIE TEXT AICI"
+ git push
+
 Lukkede plante terrarier
 Selvbærende planteøkosystemer i lille skala.
 
