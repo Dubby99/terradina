@@ -30,7 +30,7 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  etter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -254,15 +254,18 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #ffffff;
-    opacity: 0.6;
+    color: #449848;
 }
-
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color:#2a8a2f!important;
+}
 .nav > li > a {
     position: relative;
     display: block;
     padding: 10px 10px;
+    margin-top: 15px;
 }
+
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #4ec3cd;
@@ -274,21 +277,26 @@ a:hover, a:focus {
 
 .logo img {
   margin-bottom: 6px;
-  width: 200px;
+  width: 80px;
 }
 .logo-top img {
-  width: 200px;
+  width: 80px;
 }
  .justify {
   text-align: justify;
  }
-
+ @media only screen and (max-width: 767px) {
+  .logo img {
+    width:50px;
+    margin-left:15px;
+  }
+}
 
 /* ==========================================================================
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.jpg) no-repeat center center;
+  background: url(../img/bg1.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -423,26 +431,6 @@ hr.line {
 }
 
 
-#invite {
-  background: #A4D1A2;
-}
-
-.fa-envelope-o {
-  color: #4ec3cd;
-  font-size: 22px;
-  display: block;
-  padding-top: 15px;
-  width: 60px;
-  height: 60px;
-  border: 2px solid #4ec3cd;
-  -moz-border-radius: 30px;
-  -o-border-radius: 30px;
-  -webkit-border-radius: 30px;
-  border-radius: 30px;
-  margin: auto;
-}
-
-
 
 .news-container {
   padding: 10px 0px 20px;
@@ -465,11 +453,6 @@ footer {
 
 
 /*---------------Pricing Tables-------------------*/
-
-
-#expectations {
-  background: #92CA91;
-}
 
 .pricing-container {
   padding-left: 0px;
