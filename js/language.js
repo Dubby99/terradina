@@ -166,18 +166,22 @@ let arrLang = {
 let selectedLang = localStorage.getItem('language');
 if(selectedLang) {
     langTranslate(selectedLang)
-    $('#language-select').val(selectedLang).change();
+    $('#lang-drowdown').text(selectedLang);
+    let otherLang;
+    selectedLang == "en" ? otherLang="dk" : otherLang = "en";
+    $('#other-lang').text(otherLang).attr('data',otherLang)
 } else {
     langTranslate('dk')
-    $('#language-select').val('dk').change();
+    $('#lang-drowdown').text('dk');
 }
-    //Translation buttons events
-$('.translate').on('click', function() {
-    let lang = $(this).attr('id');
+//Translation buttons events
+$('#other-lang').on('click', function() {
+    let lang = $(this).attr('data');
     localStorage.setItem('language', lang);
-    langTranslate(lang);  
+    langTranslate(lang); 
+    $('#lang-drowdown').text(lang);
+    lang == "en" ? $(this).attr('data','dk').text('dk') : $(this).attr('data','en').text('en')
 })
-
 $('#language-select').on('change', function() {
     let lang = this.value;
     localStorage.setItem('language', lang);
