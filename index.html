@@ -36,15 +36,15 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about" class="scroll">About</a></li>
-					<li><a href="#layering" class="scroll">Layering</a></li>
-					<li><a href="#expectations" class="scroll">Expectations</a></li>
-					<li><a href="#gallery" class="scroll">Gallery</a></li>
-					<li><a href="#order" class="scroll">Order</a></li>
+					<li><a href="#about" key="about" class="scroll lang">About</a></li>
+					<li><a href="#layering" key="layering" class="scroll lang">Layering</a></li>
+					<li><a href="#expectations" key="expectations" class="scroll lang">Expectations</a></li>
+					<li><a href="#gallery" key="gallery" class="scroll lang">Gallery</a></li>
+					<li><a href="#order" key="order" class="scroll lang">Order</a></li>
 					<li><a>
-							<select class="selectpicker" data-width="fit">
-								<option><i class="flag flag-us"></i> English</option>
-								<option><i class="flag flag-us"></i> Dansk</option>
+							<select class="selectpicker" id="language-select" data-width="fit">
+								<option value="en"><i class="flag flag-us"></i> English</option>
+								<option value="dk"><i class="flag flag-us"></i> Dansk</option>
 							</select>
 						</a>
 					</li>
@@ -58,9 +58,9 @@
 		<div class="container">
 			<div class="row header-info">
 				<div class="col-sm-10 col-sm-offset-1 text-center">
-					<h1 class="wow fadeIn">Closed plant terraria</h1>
+					<h1 key="intro" class="wow fadeIn lang">Closed plant terraria</h1>
 					<br />
-					<p class="lead wow fadeIn" data-wow-delay="0.5s">Small scale self sustaining plant ecosystems.<br>
+					<p key="intro-p1" class="lead wow fadeIn lang" data-wow-delay="0.5s">Small scale self sustaining plant ecosystems.<br>
 						<br />
 				</div>
 			</div>
@@ -74,16 +74,16 @@
 	<section id="about" class="pad-xl green">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
-					<h2>About</h2>
+				<div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.3s">
+					<h2 key="about" class="lang">About</h2>
 					<div class="justify">
-						<p class="lead">Living plant terraria made partly with different mosses collected from Danish
+						<p key="about-p1" class="lead lang">Hobby company that creates living plant terraria made partly with different mosses collected from Danish
 							forests, partly household plants that love moisture.</p>
-						<p class="lead">These terraria are a beautiful item to any household that enjoys having plants,
+						<p key="about-p2" class="lead lang">These terraria are a beautiful item to any household that enjoys having plants,
 							and they require a minimum amount of maintenance.</p>
-						<p class="lead">What is planted in the terrarium depends largely on what can be found on the
+						<p key="about-p3" class="lead lang">What is planted in the terrarium depends largely on what can be found on the
 							market in the season.</p>
-						<p class="lead">The life in the terraria does not only include plants and mosses, but
+						<p key="about-p4" class="lead lang">The life in the terraria does not only include plants and mosses, but
 							springtails are also added in order to fight mold.</p>
 					</div>
 				</div>
@@ -98,9 +98,10 @@
 		<div class="container">
 			<div class="row margin-40">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
-					<h2 class="black">Layering</h2>
+					<h2 key="layering" class="black lang">Layering</h2>	
+					<br>
 					<div class="justify">
-						<p>A proper drainage and soil will maintain the health of the plants and critters in the
+						<p key="layering-subtitle" class="black lang">A proper drainage and soil will maintain the health of the plants and critters in the
 							terrarium. Terrariums from Terradina come with different layers and soil, each having a
 							different purpose.</p>
 					</div>
@@ -111,41 +112,40 @@
 			<div class="row">
 				<div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
 					<hr class="line purple">
-					<h3>False bottom</h3>
-					<p>Every terrarium comes with a false bottom consisting of small rocks, charcoal and a filter.</p>
+					<h3 key="false-bottom" class="lang">False bottom</h3>
+					<p key="false-bottom-p" class="lang">Every terrarium comes with a false bottom consisting of small rocks, charcoal and a filter.</p>
 				</div>
 				<div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
 					<hr class="line blue">
-					<h3>Soil</h3>
-					<p>A mixture of potting soil, orchid mixture soil and coconut fiber is ideal for a closed terrarium.
+					<h3 key="soil" class="lang">Soil</h3>
+					<p key="soil-p" class="lang">A mixture of potting soil, orchid mixture soil and coconut fiber is ideal for a closed terrarium.
 					</p>
 				</div>
 				<div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
 					<hr class="line yellow">
-					<h3>Plants and mosses</h3>
-					<p>Plants and mosses are placed in the terraria to make beautiful landscapes.</p>
+					<h3 key="plants-mosses" class="lang">Plants and mosses</h3>
+					<p key="plants-mosses-p" class="lang">Plants and mosses are placed in the terraria to make beautiful landscapes.</p>
 				</div>
 			</div>
-			<h3>Drainage layer</h3>
-			<p>Starting from the bottom, the very first layer is a drainage layer. This one is very important because it
-				helps the soil not to be too wet and soggy. The excess water wil run off through the soil and into the
+			<h3 key="drainage-layer" class="lang">Drainage layer</h3>
+			<p key="drainage-layer-p1" class="lang"> Starting from the bottom, the very first layer is a drainage layer. This one is very important because it
+				helps the soil not to be too wet and soggy. The excess water will run off through the soil and into the
 				drainage layer at the bottom.</p>
-			<p>This layer is vital for the terrarium to survive and thrive. Not having this layer can lead to plant root
+			<p key="drainage-layer-p2" class="lang">This layer is vital for the terrarium to survive and thrive. Not having this layer can lead to plant root
 				rot, meaning that the plant will be damaged and eventually die.</p>
-			<h3>Charcoal layer</h3>
-			<p>The second layer consists of charcoal. With the lid always on, the closed terrarium will produce odors
+			<h3 key="charcoal-layer" class="lang">Activated charcoal layer</h3>
+			<p key="charcoal-layer-p1" class="lang">The second layer consists of charcoal. With the lid always on, the closed terrarium will produce odors
 				from the activities in the terrarium: decomposing soil, mold etc..</p>
-			<p>The charcoal layer helps with keepin the air clean inside the terrarium, offering the plant a better
-				environment to thrive in.</p>
-			<h3>Screen and moss layer</h3>
-			<p>The third layer in the terrariums from Terradina consists of a screen and moss layer. This acts as a
+			<p key="charcoal-layer-p2" class="lang"></p>
+			<h3 key="screen-and-moss-layer" class="lang">Screen and moss layer</h3>
+			<p key="screen-and-moss-layer-p1" class="lang">The third layer in the terrariums from Terradina consists of a screen and moss layer. This acts as a
 				barrier so that the soil will not fall into the drainage and charcoal layer.</p>
-			<p>The screen is placed between the charcoal layer and the sphagnum moss.The moss is expected to decompose
+			<p key="screen-and-moss-layer-p2" class="lang">The screen is placed between the charcoal layer and the sphagnum moss. The moss is expected to decompose
 				in time and fall into the false bottom. The screen will help to prevent this.</p>
-			<p>The moss layer will cover and hide the screen entirely, giving the terrarium a more natural look, while
+			<p key="screen-and-moss-layer-p3" class="lang">The moss layer will cover and hide the screen entirely, giving the terrarium a more natural look, while
 				holding the soil in its place and providing moisture.</p>
-			<h3>Soil layer</h3>
-			<p>Finally, the last part is the soil layer. A mixture of different kinds of soils and coconut fiber will
+			<h3 key="soil-layer" class="lang">Soil layer</h3>
+			<p key="soil-layer-p1" class="lang">Finally, the last part is the soil layer. A mixture of different kinds of soils and coconut fiber will
 				keep from getting the soil too compacted.</p>
 		</div>
 	</section>
@@ -156,49 +156,49 @@
 		<div class="container">
 			<div class="row margin-40">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
-					<h2 class="white">What to expect</h2>
-					<p class="white justify">Owning a terrarium is generally easy. However, one can be unlucky. Like any
-						other plant arrangement, moving the terrarium in can be fatal if one misses some small details
+					<h2 key="what-to-expect" class="white lang">What to expect</h2>
+					<p key="what-to-expect-p1" class="white justify lang">Owning a terrarium is generally easy. However, one can be unlucky. Like any
+						other plant arrangement, moving the terrarium in can be fatal if one misses some small details,
 						like its placement in the new home and overwatering.</p>
-					<p class="white justify">It is important to keep an eye on its development from time to time,
+					<p key="what-to-expect-p2" class="white justify lang">It is important to keep an eye on its development from time to time,
 						especially in the first few weeks. This will pay off in the long run.</p>
-					<p class="white justify">You may open the lid - this is actually recommended to do at least once a
+					<p key="what-to-expect-p3" class="white justify lang">You may open the lid - this is actually recommended to do at least once a
 						month. However, many had success with growing plants in a completely sealed closed terrarium for
 						long periods of time.</p>
-					<h3 class="white ">Maintenance</h3>
-					<p class="white justify">This comes as a surprise for many: <b>Terraria have to be maintained</b>.
+					<h3 key="maintenance" class="white lang">Maintenance</h3>
+					<p  key="maintenance-p1" class="white justify lang">This comes as a surprise for many: <b>Terraria have to be maintained</b>.
 						Some plants grow faster than others, meaning that some species will fill the space in the
 						container faster than others, overtaking in time the whole container. Unless one wants a
 						terrarium with only one species of plant, one needs to get in there and cut back the length of
 						some plants.</p>
-					<p class="white justify">Trimming back the leaves that are considered too large can become a big
+					<p key="maintenance-p2" class="white justify lang">Trimming back the leaves that are considered too large can become a big
 						job, therefore patience is necessary.</p>
-					<h3 class="white">Watering</h3>
-					<p class="white justify">When opening the lid of a closed plant terrarium, water evaporates. The
+					<h3 key="watering" class="white lang">Watering</h3>
+					<p key="watering-p1" class="white justify lang">When opening the lid of a closed plant terrarium, water evaporates. The
 						evaporated water needs therefore to be replaced. Spray the glass of the container using a spray
 						bottle. Careful though, not to add too much water. The soil should be moist, but not soggy. Rain
 						water or distilled water is recomended. When watering with tap water, white streaks to appear on
 						the glass due to mineral deposits.</p>
-					<p class="white justify">If however too much water was added, then leave the lid open for a few
+					<p key="watering-p2" class="white justify lang">If however too much water was added, then leave the lid open for a few
 						days, until excess water evaporates again.</p>
-					<h3 class="white">Condensation</h3>
-					<p class="white justify">It is normal to see condensation in the morning and evening. That means
+					<h3 key="condensation" class="white lang">Condensation</h3>
+					<p key="condensation-p1" class="white justify lang">It is normal to see condensation in the morning and evening. That means
 						that the system works, and the water will soon fall on the bottom again. Both the plants and
 						soil in the terrarium release moisture and water vapor. This condenses against the walls of the
 						terrarium and falls back into the soil to be used again.</p>
-					<p class="white justify">If the container appears to be foggy, then there is too much water in the
+					<p key="condensation-p2" class="white justify lang">If the container appears to be foggy all the time, then there is too much water in the
 						container. Leave the jar open for a while. </p>
-					<h3 class="white">Placement</h3>
-					<p class="white justify">The terrarium should be kept in a bright place, but not in direct sunlight.
+					<h3 key="placement" class="white lang">Placement</h3>
+					<p key="placement-p1" class="white justify lang">The terrarium should be kept in a bright place, but not in direct sunlight.
 						The container's glass acts like a magnifier, therefore it will get too hot inside the container
 						and create a sauna effect.</p>
-					<p class="white justify">The terrarium should not be placed near a heat source, like a radiator, a
+					<p key="placement-p2" class="white justify lang">The terrarium should not be placed near a heat source, like a radiator, a
 						TV etc..</p>
-					<p class="white justify">If plants are seen to lean on one side, it means that they are leaning
+					<p key="placement-p3" class="white justify lang">If plants are seen to lean on one side, it means that they are leaning
 						towards the light source. Turn the terrarium from time to time, or try to find a brighter place
 						for the terrarium.</p>
-					<h3 class="white">Finishing touches</h3>
-					<p class="white justify">When all is done, and you are geting ready to close the lid again, remember
+					<h3 key="finishing-touches" class="white lang">Finishing touches</h3>
+					<p key="finishing-touches-p1" class="white justify lang">When all is done, and you are getting ready to close the lid again, remember
 						to dry the excess water from the walls of the container. Cleaning the glass of the terrarium
 						will also help the light to reach the plants.</p>
 					<p class="white justify"></p>
@@ -209,21 +209,21 @@
 		</div>
 	</section>
 	<section id="gallery" class="pad-lg text-center">
-		<h2 class="black">Available products</h2>
+		<h2 key="available-terraria" class="black lang">Available terraria</h2>
 		<div class="gallery-grid">
 			<div class="box">
 				<div class="inner">
-					<a href="img/large/gm7.jpg" class="glightbox2"
-						data-glightbox="title:Description Bottom; description: You can set the position of the description &lt;a href=&quot;http://google.com&quot;&gt;with a link to Google&lt;/a&gt;">
-						<img src="img/small/gm7.jpg" alt="image">
+					<a href="img/available/big/nr-24.jpg" class="glightbox2"
+						data-glightbox="title:No. 24. Price 600 DKK.; description: Plant terrarium in tinted apothecary glass. D=17 cm, H=32 (without lid), H=37 cm (with lid). <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=119528180251776&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-24.jpg" alt="image">
 					</a>
 				</div>
 			</div>
 			<div class="box">
 				<div class="inner">
-					<a href="img/large/gm8.jpg" class="glightbox2"
-						data-glightbox="title: Description Right; description: .custom-desc1; descPosition: right;">
-						<img src="img/small/gm8.jpg" alt="image">
+					<a href="img/available/big/nr-23.jpg" class="glightbox2"
+						data-glightbox="title:No. 23. Price 550 DKK.; description: Plant terrarium in egg-shaped glass. D=18 cm, H=30 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=119522456919015&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-23.jpg" alt="image">
 					</a>
 
 					<div class="glightbox-desc custom-desc1">
@@ -253,9 +253,9 @@
 			</div>
 			<div class="box">
 				<div class="inner">
-					<a href="img/large/gm9.jpg" class="glightbox2"
-						data-glightbox="title: Description Left; description: .custom-desc2; descPosition: left;">
-						<img src="img/small/gm9.jpg" alt="image">
+					<a href="img/available/big/nr-22.jpg" class="glightbox2"
+						data-glightbox="title: No. 22. Price 350 DKK.; description: Plant terrarium with homemade cork lid. D=18 cm, H=20 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=119505696920691&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-22.jpg" alt="image">
 					</a>
 					<div class="glightbox-desc custom-desc2">
 						<p>You can set the position of the description in different ways for example top, bottom, left
@@ -269,49 +269,9 @@
 			</div>
 			<div class="box">
 				<div class="inner">
-					<a href="img/large/gm7.jpg" class="glightbox2"
-						data-glightbox="title:Description Bottom; description: You can set the position of the description &lt;a href=&quot;http://google.com&quot;&gt;with a link to Google&lt;/a&gt;">
-						<img src="img/small/gm7.jpg" alt="image">
-					</a>
-				</div>
-			</div>
-			<div class="box">
-				<div class="inner">
-					<a href="img/large/gm8.jpg" class="glightbox2"
-						data-glightbox="title: Description Right; description: .custom-desc1; descPosition: right;">
-						<img src="img/small/gm8.jpg" alt="image">
-					</a>
-
-					<div class="glightbox-desc custom-desc1">
-						<p>You can set the position of the description in different ways for example <strong
-								style="text-decoration: underline;">top, bottom, left or right</strong></p>
-						<p>
-							<a href="http://google.com" target="_blank"
-								style="text-decoration: underline; font-weight: bold;">Example Google link</a> ipsum
-							vehicula eros ultrices lacinia Vestibulum ante ipsum primis in faucibus orci luctus
-							et ultrices posuere
-							cubilia Curae Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis
-							in faucibus
-							orci luctus et ultrices posuere
-						</p>
-						<p>
-							Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti
-							aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis. Felis
-							pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam
-							efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
-						</p>
-						<p>Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti
-							aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis. Felis
-							pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam
-							efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.</p>
-					</div>
-				</div>
-			</div>
-			<div class="box">
-				<div class="inner">
-					<a href="img/large/gm9.jpg" class="glightbox2"
-						data-glightbox="title: Description Left; description: .custom-desc2; descPosition: left;">
-						<img src="img/small/gm9.jpg" alt="image">
+					<a href="img/available/big/nr-19.jpg" class="glightbox2"
+					data-glightbox="title: No. 19. Price 350 DKK.; description: Plant terrarium with cork lid and warm white LED light. D=15 cm, H=25,5 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=115857207285540&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-19.jpg" alt="image">
 					</a>
 					<div class="glightbox-desc custom-desc2">
 						<p>You can set the position of the description in different ways for example top, bottom, left
@@ -325,41 +285,9 @@
 			</div>
 			<div class="box">
 				<div class="inner">
-					<a href="img/large/gm8.jpg" class="glightbox2"
-						data-glightbox="title: Description Right; description: .custom-desc1; descPosition: right;">
-						<img src="img/small/gm8.jpg" alt="image">
-					</a>
-
-					<div class="glightbox-desc custom-desc1">
-						<p>You can set the position of the description in different ways for example <strong
-								style="text-decoration: underline;">top, bottom, left or right</strong></p>
-						<p>
-							<a href="http://google.com" target="_blank"
-								style="text-decoration: underline; font-weight: bold;">Example Google link</a> ipsum
-							vehicula eros ultrices lacinia Vestibulum ante ipsum primis in faucibus orci luctus
-							et ultrices posuere
-							cubilia Curae Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis
-							in faucibus
-							orci luctus et ultrices posuere
-						</p>
-						<p>
-							Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti
-							aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis. Felis
-							pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam
-							efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
-						</p>
-						<p>Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti
-							aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis. Felis
-							pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam
-							efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.</p>
-					</div>
-				</div>
-			</div>
-			<div class="box">
-				<div class="inner">
-					<a href="img/large/gm9.jpg" class="glightbox2"
-						data-glightbox="title: Description Left; description: .custom-desc2; descPosition: left;">
-						<img src="img/small/gm9.jpg" alt="image">
+					<a href="img/available/big/nr-15.jpg" class="glightbox2"
+					data-glightbox="title: No. 15. Price 300 DKK.; description: Plant terrarium with glass lid. L=17 cm, D=7 cm, H=23,5 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101558745382053&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-15.jpg" alt="image">
 					</a>
 					<div class="glightbox-desc custom-desc2">
 						<p>You can set the position of the description in different ways for example top, bottom, left
@@ -373,33 +301,97 @@
 			</div>
 			<div class="box">
 				<div class="inner">
-					<a href="img/large/gm8.jpg" class="glightbox2"
-						data-glightbox="title: Description Right; description: .custom-desc1; descPosition: right;">
-						<img src="img/small/gm8.jpg" alt="image">
+					<a href="img/available/big/nr-14.jpg" class="glightbox2"
+					data-glightbox="title: No. 14. Price 150 DKK.; description: Plant terrarium with homemade cork lid. D=5 cm, H=16,5 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101546318716629&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-14.jpg" alt="image">
 					</a>
-
-					<div class="glightbox-desc custom-desc1">
-						<p>You can set the position of the description in different ways for example <strong
-								style="text-decoration: underline;">top, bottom, left or right</strong></p>
-						<p>
-							<a href="http://google.com" target="_blank"
-								style="text-decoration: underline; font-weight: bold;">Example Google link</a> ipsum
-							vehicula eros ultrices lacinia Vestibulum ante ipsum primis in faucibus orci luctus
+					<div class="glightbox-desc custom-desc2">
+						<p>You can set the position of the description in different ways for example top, bottom, left
+							or right</p>
+						<p>Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci
+							luctus
 							et ultrices posuere
-							cubilia Curae Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis
-							in faucibus
-							orci luctus et ultrices posuere
-						</p>
-						<p>
-							Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti
-							aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis. Felis
-							pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam
-							efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.
-						</p>
-						<p>Primis pharetra facilisis lorem quis penatibus ad nulla inceptos, dui per tempor taciti
-							aliquet consequat sodales, curae tristique gravida auctor interdum malesuada sagittis. Felis
-							pretium eros ligula natoque ad ante rutrum himenaeos, adipiscing urna mauris porta quam
-							efficitur odio, sagittis morbi tellus nisi molestie mus faucibus.</p>
+							cubilia Curae</p>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="inner">
+					<a href="img/available/big/nr-13.jpg" class="glightbox2"
+					data-glightbox="title: No. 13. Price 150 DKK.; description: Plant terrarium with glass lid. D=6 cm, H=14,5 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101535738717687&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-13.jpg" alt="image">
+					</a>
+					<div class="glightbox-desc custom-desc2">
+						<p>You can set the position of the description in different ways for example top, bottom, left
+							or right</p>
+						<p>Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci
+							luctus
+							et ultrices posuere
+							cubilia Curae</p>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="inner">
+					<a href="img/available/big/nr-12.jpg" class="glightbox2"
+					data-glightbox="title: No. 12. Price 150 DKK.; description: Plant terrarium with glass lid. D=6 cm, H=18 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101530998718161&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-12.jpg" alt="image">
+					</a>
+					<div class="glightbox-desc custom-desc2">
+						<p>You can set the position of the description in different ways for example top, bottom, left
+							or right</p>
+						<p>Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci
+							luctus
+							et ultrices posuere
+							cubilia Curae</p>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="inner">
+					<a href="img/available/big/nr-11.jpg" class="glightbox2"
+					data-glightbox="title: No. 11. Price 250 DKK.; description: Plant terrarium with homemade cork lid. D=9 cm, H=16 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101525128718748&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-11.jpg" alt="image">
+					</a>
+					<div class="glightbox-desc custom-desc2">
+						<p>You can set the position of the description in different ways for example top, bottom, left
+							or right</p>
+						<p>Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci
+							luctus
+							et ultrices posuere
+							cubilia Curae</p>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="inner">
+					<a href="img/available/big/nr-10.jpg" class="glightbox2"
+					data-glightbox="title: No. 10. Price 275 DKK.; description: Plant terrarium with homemade cork lid. D=9 cm, H=20 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101505488720712&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-10.jpg" alt="image">
+					</a>
+					<div class="glightbox-desc custom-desc2">
+						<p>You can set the position of the description in different ways for example top, bottom, left
+							or right</p>
+						<p>Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci
+							luctus
+							et ultrices posuere
+							cubilia Curae</p>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="inner">
+					<a href="img/available/big/nr-9.jpg" class="glightbox2"
+					data-glightbox="title: No. 9. Price 300 DKK.; description: Plant terrarium with homemade cork lid. D=10 cm, H=23 cm. <a target='blank' href='https://www.facebook.com/permalink.php?story_fbid=101477742056820&id=101069675430960'> <br>Click here for more details on Facebook.</a>">
+						<img src="img/available/small/nr-9.jpg" alt="image">
+					</a>
+					<div class="glightbox-desc custom-desc2">
+						<p>You can set the position of the description in different ways for example top, bottom, left
+							or right</p>
+						<p>Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci
+							luctus
+							et ultrices posuere
+							cubilia Curae</p>
 					</div>
 				</div>
 			</div>
@@ -411,17 +403,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 text-center">
-					<h2 class="white">Ordering</h2>
+					<h2 key="ordering" class="white lang">Ordering</h2>
 					<br />
 					<div class="justify">
-						<p class="white">When placing an order, you will be contacted to receive more information about
-							the terrarium: if it is in a good state and a newer picture of how it looks in that day if
-							there passed a long period of time since creating the terrarium.</p>
-						<p class="white">Being a small hobby company, a limited number of terraria can be made and the
-							product can only be delivered in the Aarhus area. The payment shall be made through
-							MobilePay or cash at the point of delivery.</p>
-						<p class="white">For more information don't hesitate to write to terradina@gmail.com or via
-							Facebook.</p>
+						<p key="ordering-p1" class="white lang">The terrariums can only be delivered in the Aarhus area. A pick-up place in Aarhus can also be arranged.</p>
+						<p key="ordering-p2" class="white lang">When ordering please send an email to info@terradina.dk or a private message on Facebook with the post/terrariums number.</p>
+						<p key="ordering-p3" class="white lang">The payment will be done through MobilePay or cash at the point of delivery.</p>
+						<p key="ordering-p4" class="white lang">For more information don't hesitate to write to info@terradina.dk or via Facebook.</p>
 					</div>
 				</div>
 			</div>
@@ -489,9 +477,8 @@
 	<!-- <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>-->
 	<script src="js/wow.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/language.js"></script>
 	<script src="js/main.js"></script>
-
-
 </body>
 
 </html>

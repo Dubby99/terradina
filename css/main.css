@@ -272,6 +272,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-toggle {
+    background-color: #7bc17e;
     border-color: transparent;
 }
 
