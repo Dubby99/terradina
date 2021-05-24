@@ -8,6 +8,11 @@ $(document).ready(function(){
   //------------------------------------//
   //Navbar//
   //------------------------------------//
+  $(document).click(function(e) {
+    if (!$(e.target).is('a')) {
+        $('.collapse').collapse('hide');	    
+      }
+  });
   /*var menu = $('.navbar');
   $(window).bind('scroll', function(e){
       if($(window).scrollTop() > 140){
