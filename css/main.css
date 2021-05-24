@@ -88,7 +88,9 @@ a:hover, a:focus {
 	background: #231f20; /* Firefox */
 	color: #FFFFFF;
 }
-
+ .bold {
+   font-weight: bold!important;
+ }
 
 /*------------------Buttons---------------------*/
 .btn:focus {
@@ -564,8 +566,23 @@ footer {
   display: grid;
   padding: 10px;
   margin-bottom: 75px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap:10px;
+}
+.pic-desc {
+  margin-bottom: 0;
+  font-family: arial;
+  line-height: 1.4em;
+}
+@media only screen and (max-width: 766px) {
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .box {
     list-style-type: none;

@@ -56,10 +56,29 @@ let arrLang = {
         'ordering-p2':"When ordering please send an email to info@terradina.dk or a private message on Facebook with the post/terrariums number.",
         'ordering-p3':"The payment will be done through MobilePay or cash at the point of delivery.",
         'ordering-p4':"For more information don't hesitate to write to info@terradina.dk or via Facebook.",
-        'pic-24':"",
-        '':"",
-        '':"",
-        '':"",
+        'pic-link':"Click here for more details on Facebook.",
+        'pic-24-title':"No. 24. Price 600 DKK.",
+        'pic-24-desc':"Plant terrarium in tinted apothecary glass. D=17 cm, H=32 (without lid), H=37 cm (with lid).",
+        'pic-23-title':"No. 23. Price 550 DKK.",
+        'pic-23-desc':"Plant terrarium in egg-shaped glass. D=18 cm, H=30 cm.",
+        'pic-22-title':"No. 22. Price 350 DKK.",
+        'pic-22-desc':"Plant terrarium with homemade cork lid. D=18 cm, H=20 cm.",
+        'pic-19-title':"No. 19. Price 350 DKK.",
+        'pic-19-desc':"Plant terrarium with cork lid and warm white LED light. D=15 cm, H=25,5 cm.",
+        'pic-15-title':"No. 15. Price 300 DKK.",
+        'pic-15-desc':"Plant terrarium with glass lid. L=17 cm, D=7 cm, H=23,5 cm.",
+        'pic-14-title':"No. 14. Price 150 DKK.",
+        'pic-14-desc':"Plant terrarium with homemade cork lid. D=5 cm, H=16,5 cm.",
+        'pic-13-title':"No. 13. Price 150 DKK.",
+        'pic-13-desc':"Plant terrarium with glass lid. D=6 cm, H=14 cm.",
+        'pic-12-title':"No. 12. Price 150 DKK.",
+        'pic-12-desc':"Plant terrarium with glass lid. D=6 cm, H=18 cm.",
+        'pic-11-title':"No. 11. Price 250 DKK.",
+        'pic-11-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=16 cm.",
+        'pic-10-title':"No. 10. Price 275 DKK.",
+        'pic-10-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=20 cm.",
+        'pic-9-title':"No. 9. Price 300 DKK.",
+        'pic-9-desc':"Plant terrarium with homemade cork lid. D=10 cm, H=23 cm.",
     },
     'dk': {
         'about': "Om os",
@@ -117,6 +136,29 @@ let arrLang = {
         'ordering-p2':"Ved bestilling bedes du sende en e-mail til info@terradina.dk eller en privat besked på Facebook med post- / terrariumnummeret.",
         'ordering-p3':"Betalingen sker via MobilePay eller kontant på leveringstidspunktet.",
         'ordering-p4':"For mere information skriv til info@terradina.dk eller via Facebook.",
+        'pic-link':"Klik her for detaljer på Facebook.",
+        'pic-24-title':"Nr. 24. Pris 600 DKK.",
+        'pic-24-desc':"Plante terrarie i tonede apotekerglas. D=17 cm, H=32 cm (målt uden låg), H=37 cm (målt med låg).",
+        'pic-23-title':"Nr. 23. Pris 550 DKK.",
+        'pic-23-desc':"Plante terrarie i ægformede glas. D=18 cm, H=30 cm.",
+        'pic-22-title':"Nr. 22. Pris 350 DKK.",
+        'pic-22-desc':"Plante terrarie med hjemmelavede korkprop. D=18 cm, H=20 cm.",
+        'pic-19-title':"Nr. 19. Pris 350 DKK.",
+        'pic-19-desc':"Plante terrarie med korkprop og varm hvid LED lys. D=15 cm, H=25,5 cm.",
+        'pic-15-title':"Nr. 15. Pris 300 DKK.",
+        'pic-15-desc':"Plante terrarie med glas låg. L=17 cm, D=7 cm, H=23,5 cm.",
+        'pic-14-title':"Nr. 14. Pris 150 DKK.",
+        'pic-14-desc':"Plante terrarie med hjemmelavede korkprop. D=5 cm, H=16,5 cm.",
+        'pic-13-title':"Nr. 13. Pris 150 DKK.",
+        'pic-13-desc':"Plante terrarie med glas låg. D=6 cm, H=14 cm.",
+        'pic-12-title':"Nr. 12. Pris 150 DKK.",
+        'pic-12-desc':"Plante terrarie med glas låg. D=6 cm, H=18 cm.",
+        'pic-11-title':"Nr. 11. Pris 250 DKK.",
+        'pic-11-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=16 cm.",
+        'pic-10-title':"Nr. 10. Pris 275 DKK.",
+        'pic-10-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=20 cm.",
+        'pic-9-title':"Nr. 9. Pris 300 DKK.",
+        'pic-9-desc':"Plante terrarie med hjemmelavede korkprop. D=10 cm, H=23 cm.",
     }
 }
 
@@ -143,7 +185,7 @@ $('#language-select').on('change', function() {
 
 function langTranslate(lang) {
     $('.lang').each(function(index, element) {
-        $(this).text(arrLang[lang][$(this).attr('key')]);
+        $(this).html(arrLang[lang][$(this).attr('key')]);
     })
 }
 
