@@ -169,6 +169,7 @@ if(selectedLang) {
     $('#language-select').val(selectedLang).change();
 } else {
     langTranslate('dk')
+    $('#language-select').val('dk').change();
 }
     //Translation buttons events
 $('.translate').on('click', function() {
