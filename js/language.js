@@ -83,6 +83,7 @@ let arrLang = {
         'pic-10-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=20 cm.",
         'pic-9-title':"No. 9. Price 300 DKK.",
         'pic-9-desc':"Plant terrarium with homemade cork lid. D=10 cm, H=23 cm.",
+        'contact-us-on':"Connect with us on"
     },
     'dk': {
         'about': "Om os",
@@ -167,6 +168,7 @@ let arrLang = {
         'pic-10-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=20 cm.",
         'pic-9-title':"Nr. 9. Pris 300 DKK.",
         'pic-9-desc':"Plante terrarie med hjemmelavede korkprop. D=10 cm, H=23 cm.",
+        'contact-us-on':"Find os på"
     }
 }
 
