@@ -212,6 +212,10 @@ a:hover, a:focus {
   color: #ffffff;
 }
 
+.cherry {
+  color:#bd1919;
+}
+
 .black-bg {
   background: #231f20;
 }
@@ -227,7 +231,6 @@ a:hover, a:focus {
 .purple-bg {
 	background: #6d3f96;
 }
-
 
 
 /* ==========================================================================

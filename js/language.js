@@ -1,6 +1,7 @@
 //Language package
 let arrLang = {
     'en': {
+    	'hollyday-announcement':"<i class='fa fa-info-circle' style='font-size:20px'></i> We are closed for summer holidays from the 8th of july until 3rd of August!",
         'about': "About",
         'layering':"Layering",
         'expectations':"Expectations",
@@ -84,8 +85,10 @@ let arrLang = {
         'pic-9-title':"No. 9. Price 300 DKK.",
         'pic-9-desc':"Plant terrarium with homemade cork lid. D=10 cm, H=23 cm.",
         'contact-us-on':"Connect with us on"
+        
     },
     'dk': {
+    	'hollyday-announcement':"<i class='fa fa-info-circle' style='font-size:20px'></i> Vi holder ferielukket fra d. 8 juli til d. 3. august!",
         'about': "Om os",
         'layering':"Lagdeling",
         'expectations':"Forventninger",
@@ -169,6 +172,7 @@ let arrLang = {
         'pic-9-title':"Nr. 9. Pris 300 DKK.",
         'pic-9-desc':"Plante terrarie med hjemmelavede korkprop. D=10 cm, H=23 cm.",
         'contact-us-on':"Find os på"
+        
     }
 }
 
