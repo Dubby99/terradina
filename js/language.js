@@ -80,10 +80,8 @@ let arrLang = {
         'pic-12-desc':"Plant terrarium with glass lid. D=6 cm, H=18 cm.",
         'pic-11-title':"No. 11. Price 250 DKK.",
         'pic-11-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=16 cm.",
-        'pic-10-title':"No. 10. Price 275 DKK.",
+        'pic-10-title':"No. 10. Price 250 DKK.",
         'pic-10-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=20 cm.",
-        'pic-9-title':"No. 9. Price 300 DKK.",
-        'pic-9-desc':"Plant terrarium with homemade cork lid. D=10 cm, H=23 cm.",
         'contact-us-on':"Connect with us on"
         
     },
@@ -145,6 +143,7 @@ let arrLang = {
         'ordering-p3':"Betalingen sker via MobilePay eller kontant på leveringstidspunktet.",
         'ordering-p4':"For mere information skriv til info@terradina.dk eller via Facebook.",
         'pic-link':"Klik her for detaljer på Facebook.",
+        'pic-28-title':"No. 28. Pris 250 DKK.",
         'pic-27-title':"No. 27. Pris 550 DKK.",
         'pic-27-desc':"Plante terrarie i tonede apotekerglas med hjemmelavede korkprop. D=17 cm, H=32",
         'pic-26-title':"No. 26. Pris 325 DKK. OBS! FLISET LÅG! ",
@@ -167,10 +166,8 @@ let arrLang = {
         'pic-12-desc':"Plante terrarie med glas låg. D=6 cm, H=18 cm.",
         'pic-11-title':"Nr. 11. Pris 250 DKK.",
         'pic-11-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=16 cm.",
-        'pic-10-title':"Nr. 10. Pris 275 DKK.",
+        'pic-10-title':"Nr. 10. Pris 250 DKK.",
         'pic-10-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=20 cm.",
-        'pic-9-title':"Nr. 9. Pris 300 DKK.",
-        'pic-9-desc':"Plante terrarie med hjemmelavede korkprop. D=10 cm, H=23 cm.",
         'contact-us-on':"Find os på"
         
     }
