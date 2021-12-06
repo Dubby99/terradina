@@ -78,8 +78,7 @@ let arrLang = {
         'pic-13-desc':"Plant terrarium with glass lid. D=6 cm, H=14 cm.",
         'pic-12-title':"No. 12. Price 130 DKK.",
         'pic-12-desc':"Plant terrarium with glass lid. D=6 cm, H=18 cm.",
-        'pic-11-title':"No. 11. Price 220 DKK.",
-        'pic-11-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=16 cm.",
+
         'pic-10-title':"No. 10. Price 250 DKK.",
         'pic-10-desc':"Plant terrarium with homemade cork lid. D=9 cm, H=20 cm.",
         'contact-us-on':"Connect with us on"
@@ -163,8 +162,6 @@ let arrLang = {
         'pic-13-desc':"Plante terrarie med glas låg. D=6 cm, H=14 cm.",
         'pic-12-title':"Nr. 12. Pris 130 DKK.",
         'pic-12-desc':"Plante terrarie med glas låg. D=6 cm, H=18 cm.",
-        'pic-11-title':"Nr. 11. Pris 220 DKK.",
-        'pic-11-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=16 cm.",
         'pic-10-title':"Nr. 10. Pris 250 DKK.",
         'pic-10-desc':"Plante terrarie med hjemmelavede korkprop. D=9 cm, H=20 cm.",
         'contact-us-on':"Find os på"
