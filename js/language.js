@@ -1,7 +1,7 @@
 //Language package
 let arrLang = {
     'en': {
-    	'hollyday-announcement':"We are closed for summer holidays from the 8th of july until 3rd of August!",
+    	'hollyday-announcement':"We are closed from the 17th of February until 12th of March!",
         'about': "About",
         'layering':"Layering",
         'expectations':"Expectations",
@@ -78,7 +78,7 @@ let arrLang = {
         
     },
     'dk': {
-    	'hollyday-announcement':"Vi holder ferielukket fra d. 8 juli til d. 3. august!",
+    	'hollyday-announcement':"Vi holder lukket fra d. 17 februar til d. 12. marts!",
         'about': "Om os",
         'layering':"Lagdeling",
         'expectations':"Forventninger",
