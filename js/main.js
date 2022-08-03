@@ -1,5 +1,5 @@
 $(document).ready(function(){
- $('#modal-announcement').modal('show')
+ //$('#modal-announcement').modal('show')
  var lightbox = GLightbox();
 
  var lightboxDescription = GLightbox({
